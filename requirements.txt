@@ -1,0 +1,4 @@
+chromadb
+pypdf
+requests
+tqdm
