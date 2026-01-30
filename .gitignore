@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual env
+.venv/
+venv/
+
+# Chroma / vector db
+chroma_db/
+*.sqlite3
+
+# Docs / PDFs (avoid copyrighted docs)
+docs/**/*.pdf
+docs/**/*.PDF
+docs/.gitkeep
+
+# Outputs
+eval_results.json
+EVAL_REPORT.md
+
+# OS
+.DS_Store
+Thumbs.db
